@@ -1,0 +1,17 @@
+@import"../../Styles//main.scss";
+.nav{
+    height: 10vh;
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+
+    &__links{
+
+        .a{
+            @include link-style;
+            padding: 0 3rem;
+        }
+    }
+}
